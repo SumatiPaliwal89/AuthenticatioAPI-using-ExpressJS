@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const asyncHandler = require('express-async-handler');
-const { access } = require('fs/promises');
+
 
 const url = process.env.CONNECTION_STRING;
 
